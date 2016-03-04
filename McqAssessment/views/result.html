@@ -1,0 +1,27 @@
+<div ng-cloak class="toolbardemoCover md-whiteframe-24dp " ng-app="mcqTemplateDirective">
+    <md-toolbar class="md-tall">
+        <div class="md-toolbar-tools">
+            <h3>
+        <span>{{title}}</span>
+      </h3>
+        </div>
+    </md-toolbar>
+    <md-whiteframe class="md-whiteframe-10dp content-cover" style="boder-radius=25px" flex="80" layout="column">
+        <md-content class="md-padding">
+            <div layout="column" layout-gt-sm="row" style="border-radius=20px" ng-repeat="question in questionsForResult">
+                <md-card flex flex-gt-sm="30">
+                    <h2>{{question.value}}</h2>
+                    <md-card-content>
+                        <span ng-repeat="option in question.options"><label>&nbsp;{{option.value}}&nbsp;&nbsp;</label></span>
+                    </md-card-content>
+                </md-card>
+                <md-card flex>
+                    <h2>Your answers</h2>
+                    <md-card-content>
+                        <span ng-repeat="check in checkedArray[$index]"><label>&nbsp;{{check}}&nbsp;&nbsp;</label></span>
+                    </md-card-content>
+                </md-card>
+            </div>
+        </md-content>
+    </md-whiteframe>
+</div>
