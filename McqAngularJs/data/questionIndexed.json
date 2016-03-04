@@ -1,0 +1,73 @@
+angular.callbacks._0({
+  "questions": [
+    {
+      "noOfAns":2,
+      "id": 1,
+      "value": "Sample question1?",
+      "options": [
+        {
+          "value": "ans1",
+          "evalValue": true
+        },
+        {
+          "value": "ans2",
+          "evalValue": false
+        },
+        {
+          "value": "ans3",
+          "evalValue": false
+        },
+        {
+          "value": "ans4",
+          "evalValue": false
+        }
+      ]
+    },
+    {
+      "noOfAns":1,
+      "id": 2,
+      "value": "Smaple question2?",
+      "options": [
+        {
+          "value": "ans1",
+          "evalValue": true
+        },
+        {
+          "value": "ans2",
+          "evalValue": false
+        },
+        {
+          "value": "ans3",
+          "evalValue": true
+        }
+      ]
+    },
+      {
+      "noOfAns":4,
+      "id": 3,
+      "value": "Smaple question3?",
+      "options": [
+        {
+          "value": "ans1",
+          "evalValue": false
+        },
+        {
+          "value": "ans2",
+          "evalValue": true
+        },
+        {
+          "value": "ans3",
+          "evalValue": false
+        },
+        {
+          "value": "ans4",
+          "evalValue": true
+        },
+        {
+          "value": "ans5",
+          "evalValue": true
+        }
+      ]
+    }
+  ]
+})
